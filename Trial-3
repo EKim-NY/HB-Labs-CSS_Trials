@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        /*insert CSS for div container here*/
+        body {
+            margin: 0;
+        }
+
+        .rectangle {
+            width: 500px;
+            height: 100px;
+        }
+
+        #black {
+            background-color: black; 
+        }
+
+        #red {
+            background-color: #FF0000;
+        }
+
+        #gold {
+            background-color: #ffd700; 
+        }
+        
+    </style>
+  </head>
+
+  <body>
+
+    <!--create a div-->
+    <div class="rectangle" id="black"></div>
+    <div class="rectangle" id="red"></div>
+    <div class="rectangle" id="gold"></div>
+
+  </body>
+
+</html>
