@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        /*insert CSS for div container here*/
+        body {
+            margin: 0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black; 
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 20px;
+        }            
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <!--create a div-->
+    <div class="box"></div>
+    <div class="box"></div>
+
+  </body>
+
+</html>
